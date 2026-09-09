@@ -1,0 +1,19 @@
+{
+    "name": "modev/i3lam",
+    "description": "Backend REST API de la plateforme i3lam",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Modev\\I3lam\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MoDev228",
+            "email": "modev228@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.7"
+    }
+}
