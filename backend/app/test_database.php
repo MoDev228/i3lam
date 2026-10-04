@@ -8,10 +8,7 @@ $database = new Database();
 
 $pdo = $database->getConnection();
 
-$stmt = $pdo->query("SELECT 1");
+$pdo->query("SELECT 1");
 
-$result = $stmt->fetch();
-
-echo "Connexion créée avec succès.";
-
-echo "Test SQL réussi.";
+echo "Connexion à la base de données réussie.";
+echo " Test SQL réussi.";
